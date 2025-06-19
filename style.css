@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.box{
+    background-image: url(./img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+header{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #D5D5D6;
+}
+
+.btn{
+font-weight: 600;
+font-size: 20px;
+padding: 14px 35px;
+border-radius: 10px;
+background-color: #009FF5B5;
+box-shadow: 0px 4px 4px 0px #DAD3FF;
+border: none;
+color: white;
+}
+select{
+    background: inherit;
+    border: none;
+    color: #D5D5D6;
+    font-size: 20px;
+}
+h1{
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+text-shadow: 0px 4px 4px #0047FF;
+background: #FFC611;
+border: 11px solid #5A5555;
+border-radius: 35px;
+width: 604px;
+margin: 50px auto;
+}
+.card{
+    width: 361px;
+    background: #1F1F1F;
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+    text-align: center;
+}
+.card h2{
+    text-shadow: 0px 4px 4px #FFC200;
+    margin: 10px 0;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info{
+background-color: black;
+padding: 40px 0;
+}
+.info h2{
+font-weight: 600;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #5A5555;
+text-shadow: 0px 4px 4px #FFFFFF;
+text-align: center;
+}
+.ota2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 50px;
+}
+.ota2 P{
+font-family: Roboto;
+font-weight: 600;
+font-size: 27px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.btn2 {
+font-family: Roboto;
+font-weight: 700;
+font-size: 27px;
+line-height: 100%;
+letter-spacing: 0%;
+text-shadow: 0px 4px 4px #040404CF;
+color: black;
+padding: 14 71px;
+background: #FFC200;
+box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+border: none;
+margin-top: 50px;
+}
+
+.btn2 :hover{
+    color: white;
+    background-color: #535353;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+background-color: #FFC611;
+}
